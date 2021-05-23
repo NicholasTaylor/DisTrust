@@ -1,20 +1,20 @@
 {
 
     "manifest_version": 2,
-    "name": "NoTrust",
+    "name": "DisTrust",
     "version": "1.0",
   
     "description": "Deletes annoying OneTrust banners on sight.",
   
     "icons": {
-        "48": "icons/notrust-48.png",
-        "96": "icons/notrust-96.png"
+        "48": "icons/distrust-48.png",
+        "96": "icons/distrust-96.png"
     },
   
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
-        "js": ["notrust.js"]
+        "js": ["distrust.js"]
       }
     ]
   
