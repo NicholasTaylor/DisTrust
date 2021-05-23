@@ -2,7 +2,7 @@
 
     "manifest_version": 2,
     "name": "DisTrust",
-    "version": "1.01",
+    "version": "1.1",
   
     "description": "Deletes annoying OneTrust banners on sight.",
   
